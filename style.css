@@ -27,18 +27,20 @@ body{
         text-decoration: underline;
 }
 .imagebox{
-    display: flex;
-    justify-content: center;
+    
+    background-color: black;
+    width:90% ;
+    text-align: center;
     
 }
-.image1{
+/* .image1{
     border-radius: 8px;
-    width: 90%;
-    height: 300px;
-}
+    height:100vh;
+    height:100vh; */
+
 .brand{
     margin-left: 10px;
-    margin-top: 40px;
+    
 }
 
 .brandbox{
@@ -62,4 +64,28 @@ body{
     .options{
         display: none;
     }
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.exp{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.exp h2,p{
+    font-size: 2vw;
+}
+.oi{
+    background-color: rgb(212, 212, 212);
+    height: 30px;
+    width: 20vw;
+}
+.spec{
+    display: flex;
+    justify-content: space-between;
 }
