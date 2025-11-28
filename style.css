@@ -26,3 +26,37 @@ body{
 .options p:hover{
         text-decoration: underline;
 }
+.imagebox{
+    display: flex;
+    justify-content: center;
+    
+}
+.image1{
+    border-radius: 8px;
+    width: 90%;
+    height: 300px;
+}
+.brand{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.branditems img{
+    height: 20px;
+
+}
+.brandbox{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.branditems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media  screen and (max-width:600px) {
+    .options{
+        display: none;
+    }
+}
