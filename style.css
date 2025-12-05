@@ -19,13 +19,12 @@ body{
 .heading{
     padding: 10px;
 }
-.options p{
+.options a{
     cursor: pointer;
+    color: black;
     
 }
-.options p:hover{
-        text-decoration: underline;
-}
+
 .imagebox{
     
     background-color: black;
@@ -40,6 +39,7 @@ body{
 
 .brand{
     margin-left: 10px;
+    font-size:xx-large;
     
 }
 
@@ -88,4 +88,20 @@ body{
 .spec{
     display: flex;
     justify-content: space-between;
+}
+
+.service-container{
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+   
+}
+.service-container div p{
+    font-size: 1vw;
+}
+.service-container div{
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    font-size: 1vw;
+    padding: 10px;
 }
