@@ -5,5 +5,5 @@ menuopen.addEventListener("click",function(){
     menuitems.style.left="50%";
 })
 menuclose.addEventListener("click",function(){
-    menuitems.style.left="-50%"
+    menuitems.style.left="200%";
 })

@@ -271,8 +271,9 @@ body{
     background-color: #1D232C;
     position: fixed;
     top: 0%;
-    left:-50% ;
+   
     z-index: 43;
+    transition: 0.5s ease-in-out;
     
    
 }
