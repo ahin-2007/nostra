@@ -65,7 +65,12 @@ body{
     align-items: center;
 }
 @media  screen and (max-width:600px) {
-    .options{
+    .options a{
+        display: none;
+    }
+}
+@media  screen and (min-width:600px) {
+    .menu{
         display: none;
     }
 }
@@ -225,7 +230,6 @@ body{
     background-color: #1D232C;
     color: white;
     margin-top: 20px;
-    height: 100%;
 
 }
 .footer div{
@@ -260,4 +264,28 @@ body{
 }
 .options a:hover{
     text-decoration: underline;
+}
+.menu-items {
+    width: 50%;
+    height: 100vh;
+    background-color: #1D232C;
+    position: fixed;
+    top: 0%;
+    left:-50% ;
+    z-index: 43;
+    
+   
+}
+.menu-items div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.menu-items p{
+    color: rgb(255, 0, 0);
+    font-size: 23px;
+    text-align: end;
+    padding: 10px;
+    cursor: pointer;
 }
