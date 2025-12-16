@@ -273,7 +273,7 @@ body{
     top: 0%;
    right: -50%;
     z-index: 43;
-    transition: 0.5s ease-out;
+    transition: 0.5s ease-in-out;
     
    
 }
@@ -289,4 +289,7 @@ body{
     text-align: end;
     padding: 10px;
     cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
 }
